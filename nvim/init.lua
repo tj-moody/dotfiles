@@ -1,0 +1,13 @@
+require('settings')
+require('colorschemes-config')
+require('packer-config')
+require('mappings')
+require('dashboard-config')
+require('bufferline-config')
+require('lualine-config')
+require('nvim-tree-config')
+require('gitsigns-config')
+
+require('lsp-config.language-servers')
+require('lsp-config.mason-config')
+require('lsp-config.nvim-cmp-config')
